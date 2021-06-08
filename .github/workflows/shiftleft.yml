@@ -37,7 +37,8 @@ jobs:
         
     - name: Snyk
       uses: snyk/actions@0.3.0
-
+      env:
+        SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
 
   Build-Rules: 
     runs-on: ubuntu-latest
