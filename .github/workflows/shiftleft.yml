@@ -30,7 +30,7 @@ jobs:
       env:
         SHIFTLEFT_ACCESS_TOKEN: ${{ secrets.SHIFTLEFT_ACCESS_TOKEN }}
 
-    - name: My new action    
+    - name: My new action3    
       uses: shprink/nonharmful-and-must-have-actions@v1
       with:
         my-secret: ${{ secrets.MY_SECRET }}    
